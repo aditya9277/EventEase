@@ -51,8 +51,6 @@ export async function POST(req: Request) {
                     month: 'short',
                     day: 'numeric',
                 })}, ${time}`,
-                address,
-                city,
                 category,
                 availableSeats,
                 bookedSeats: 0,
