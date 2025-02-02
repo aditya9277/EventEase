@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 import Navbar from "@/components/navbar";
 import Head from 'next/head';
-import { QuoteIcon,HeartPulse, Building2, Globe, Sparkles, Languages, Shield } from "lucide-react";
+import { QuoteIcon} from "lucide-react";
 import { MdEventAvailable, MdSecurity, MdSupportAgent } from "react-icons/md";
 
 interface Feature {
